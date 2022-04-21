@@ -14,7 +14,6 @@ public class Main {
         task4("aabccddefgghiijjkk");
         int[] arr = {5, 4, 7, 8, 0 ,9};
         task5(arr);
-        System.out.println(Arrays.toString(arr));
     }
     static void task1(int year) {
         boolean leap = (year % 4 == 0 && year % 100 !=0) || year % 400 ==0;
